@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+#canvas {
+    border: 1px solid black;
+    display: block;
+}
+#topControls {
+    position: fixed;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.controlButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+#sliderContainer {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+#speedSlider {
+    width: 300px;
+}
+#sizeSliderContainer {
+    position: fixed;
+    right: 20px;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#sizeSlider {
+    height: 300px;
+    writing-mode: bt-lr; /* vertical slider */
+    transform: rotate(270deg);
+}
